@@ -1,0 +1,94 @@
+:root {
+  --primary-color: #0f172a;
+  --accent-color: #3b82f6;
+  --text-color: #1e293b;
+  --bg-color: #f1f5f9;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  color: white;
+  background: var(--accent-color);
+  transition: background-color 0.5s ease;
+}
+header.scrolled {
+  background: rgba(15, 23, 42, 0.8);
+}
+.navbar a {
+  color: white;
+  margin: 0 1rem;
+}
+.navbar a:hover {
+  color: var(--accent-color);
+}
+.nav-link {
+  color: #3B82F6;
+  transition: all 0.3s ease;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.375rem;
+}
+.nav-link:hover {
+  background-color: white;
+  color: #3B82F6;
+  border: 2px solid white;
+}
+#hero {
+  background: var(--accent-color);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  min-height: 100vh;
+}
+.custom-size {
+  width: 260px;
+  height: 260px;
+}
+.content h2 {
+  color: var(--primary-color);
+  margin-top: 2rem;
+}
+.footer {
+  background: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+#mobile-menu {
+  display: none;
+}
+@media (max-width: 768px) {
+  .navbar.desktop {
+    display: none;
+  }
+  #mobile-menu.show {
+    display: block;
+    background: var(--primary-color);
+  }
+#mobile-menu a {
+    display: block;
+    padding: 0.5rem 1rem;
+    border-top: 1px solid #334155;
+  }
+}
+
+.portfolio-link {
+  color: #3B82F6;
+  transition: all 0.3s ease;
+  padding: 0.25rem 0.25rem;
+  border-radius: 0.375rem;
+}
+
+.portfolio-link:hover {
+  background-color: #3B82F6;
+  color: white;
+  border: 2px solid white;
+}

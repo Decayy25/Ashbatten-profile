@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gacha Khodam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <div class="container flex">
+            <div class="card flex flex-col gap-3 w-80">
+                <input type="text" id="nama" placeholder="Masukan nama lengkap" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <button onclick="simpanInput(event)" class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition">Submit</button>
+                <output id="output"></output>
+
+                    <button type="button" onclick="resetRandom()" class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition">Reset</button>
+
+            </div>
+
+            <div class="MemeImg"></div>
+        </div>
+    </form>
+    <script src="main.js"></script>
+    <script src="Tailwind.js"></script>
+</body>
+</html>

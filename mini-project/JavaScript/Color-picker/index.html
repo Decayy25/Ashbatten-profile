@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Picker Random</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+
+  <div class="bg-white shadow-lg rounded-2xl p-6 w-80 text-center">
+    <h1 class="text-2xl font-bold mb-4">Color Picker</h1>
+    
+    <!-- Kotak warna -->
+    <div id="colorDisplay" 
+         class="w-32 h-32 mx-auto rounded-xl shadow-md border transition-all duration-300" 
+         style="background-color: #000000;">
+    </div>
+    
+    <!-- Input warna -->
+    <input type="color" 
+           id="colorPicker" 
+           class="mt-5 w-20 h-12 p-1 rounded-lg cursor-pointer border border-gray-300" 
+           value="#000000">
+    
+    <!-- Kode warna -->
+    <p id="hexCode" 
+       class="mt-3 text-lg font-mono font-semibold text-gray-700">#000000</p>
+
+    <!-- Tombol -->
+    <div class="flex justify-center gap-3 mt-4">
+      <button id="copyBtn" 
+              class="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg shadow-md transition-all duration-300">
+        Copy Code
+      </button>
+      <button id="randomBtn" 
+              class="px-4 py-2 bg-green-500 hover:bg-green-600 text-white rounded-lg shadow-md transition-all duration-300">
+        Random
+      </button>
+    </div>
+    
+    <!-- Notifikasi -->
+    <p id="copyMsg" class="text-green-500 text-sm mt-2 hidden">Copied!</p>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
