@@ -69,6 +69,12 @@ function renderPortfolio() {
       desc: "A simple quiz game using C++ programming language.",
       link: "#",
       source_code: "https://github.com/Decayy25/Quiz-game"
+    },
+    {
+      title: "E-Commerce Website",
+      desc: "A simple e-commerce website using HTML, CSS, Tailwind, and JavaScript.",
+      link: "mini-project/JavaScript/Ashbatten-Store/index.html",
+      source_code: "https://github.com/Decayy25/my-quest-from-teacher.git"
     }
   ];
 
