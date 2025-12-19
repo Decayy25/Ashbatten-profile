@@ -56,19 +56,19 @@ function renderPortfolio() {
       title: "Brute-force",
       desc: "A program that can find out passwords using the brute-force method.",
       link: "#",
-      source_code: "https://github.com/Decayy25"
+      source_code: "https://github.com/Decayy25/Brute-force"
     },
     {
       title: "tic-tac-toe",
       desc: "A simple tic tac toe game using C++ programming language.",
       link: "#",
-      source_code: "https://github.com/Decayy25"
+      source_code: "https://github.com/Decayy25/tic-tac-toe"
     },
     {
       title: "Quiz-game",
       desc: "A simple quiz game using C++ programming language.",
       link: "#",
-      source_code: "https://github.com/Decayy25"
+      source_code: "https://github.com/Decayy25/Quiz-game"
     }
   ];
 
@@ -84,10 +84,10 @@ function renderPortfolio() {
       <h3 class="text-xl font-semibold">${item.title}</h3>
       <p class="text-gray-600 mt-2">${item.desc}</p>
       <div class="mt-4 flex justify-between">
-        <a href="${item.link}" class="portfolio-link text-blue-500 hover:underline">
+        <a href="${item.link}" class="portfolio-link text-blue-500" target="_blank" rel="noopener noreferrer">
           View Demo
         </a>
-        <a href="${item.source_code}" class="portfolio-link text-blue-500 hover:underline">
+        <a href="${item.source_code}" class="portfolio-link text-blue-500" target="_blank" rel="noopener noreferrer">
           Source Code
         </a>
       </div>
