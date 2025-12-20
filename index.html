@@ -20,7 +20,7 @@
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 </head>
 <body>
-  <header class="p-4 flex justify-between items-center fixed top-0 w-full z-50 transition duration-500">
+  <header class="fixed top-0 w-full z-50 bg-blue-500 p-4 flex justify-between items-center">
     <div class="text-2xl font-bold ml-5">Ashbatten</div>
     <nav class="navbar desktop space-x-4">
       <a href="#hero" class="px-3 py-1 nav-link">Home</a>
@@ -38,17 +38,26 @@
     <a href="#contact" class="text-white hover:text-blue-500">Contact</a>
   </div>
 
-  <section id="hero" class="min-h-screen flex items-center justify-between px-8 bg-blue-500 text-white">
-    <div class="text-left max-w-md space-y-5 ml-20 -mt-8 md:-12" data-aos="fade-right">
-      <h2 class="text-5xl font-bold leading-tight">Ashbatten Official</h2>
-      <p class="text-xl leading-relaxed">Make the code for website</p>
-    </div>
-    <div class="hidden md:block w-1/3" data-aos="fade-left" data-aos-delay="200">
-      <div class="rounded-full -ml-5 overflow-hidden border-8 border-gray-900 custom-size">
-        <img src="assets/img/real-logo.png" alt="Logo Decayy Ashbatten" class="w-full h-full object-cover">
+  <!-- Hero Section -->
+   <section id="home"class="bg-blue-500 text-white pt-24 md:pt-0 min-h-[90vh] md:min-h-screen flex items-center">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-center md:justify-between">
+      <div class="md:w-1/2 text-center md:text-left" data-aos="fade-right">
+      <h1 class="text-4xl md:text-5xl font-bold">Ashbatten Official</h1>
+      <p class="text-xl leading-relaxed"> Make code for website and network configuration, and other programming languages.
+      </p>
+      <div class="mt-6">
+        <a href="#contact"class="inline-block bg-blue-500 text-white px-4 py-2 rounded-full contact-link">Contact Person</a>
       </div>
     </div>
+
+    <div class="md:w-1/2 mt-6 md:mt-0 flex justify-center" data-aos="fade-left" data-aos-delay="200">
+      <div class="w-52 h-52 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-gray-200 flex items-center justify-center bg-gray-200">
+        <img src="assets/img/icon.png" class="object-cover w-full h-full" alt="Shop Icon">
+      </div>
+     </div>
+   </div>
   </section>
+
 
   <div class="h-8 bg-gray-300 my-4 "></div>
 
@@ -110,6 +119,8 @@
       <a href="https://www.linkedin.com/in/moch-rizqi-hermawan-undefined-a1b81b35b/" class="hover:text-blue-500">
         <i data-feather="linkedin"></i>
       </a>
+      <a href="https://www.github.com/Decayy25" class="hover:text-blue-500">
+        <i data-feather="github"></i>
     </div>
 
     <div class="links flex gap-4 mb-4">
