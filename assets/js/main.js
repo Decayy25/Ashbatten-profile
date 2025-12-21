@@ -37,7 +37,7 @@ function renderPortfolio() {
     {
       title: "Math-formula",
       desc: "create a way to find the answer key to a math problem",
-      link: "mini-project/JavaScript/Math-formula/index.html",
+      link: "https://math-formulav4.vercel.app/",
       source_code: "https://github.com/Decayy25/math-formula.git"
     },
     {
