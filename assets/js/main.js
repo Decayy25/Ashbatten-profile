@@ -49,7 +49,7 @@ function renderPortfolio() {
     {
       title: "Gacha-Khodam",
       desc: "only for joke with friends, to summon khodam using gacha system.",
-      link: "mini-project/JavaScript/Gacha-Khodam/index.html",
+      link: "https://gacha-khodam-iota.vercel.app/",
       source_code: "https://github.com/Decayy25/Gacha-Khodam.git"
     },
     {
@@ -75,6 +75,12 @@ function renderPortfolio() {
       desc: "A simple e-commerce website using HTML, CSS, Tailwind, and JavaScript.",
       link: "mini-project/JavaScript/Ashbatten-Store/index.html",
       source_code: "https://github.com/Decayy25/my-quest-from-teacher.git"
+    },
+    {
+      title: "color-picker",
+      desc: "A simple color picker app using HTML, CSS, Tailwind, and JavaScript.",
+      link: "mini-project/JavaScript/color-picker/index.html",
+      source_code: "https://github.com/Decayy25/color-picker.git"
     }
   ];
 
