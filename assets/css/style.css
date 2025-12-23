@@ -93,3 +93,18 @@ header.scrolled {
   border: 2px solid white;
   margin: 0.25rem;
 }
+
+.contact-link {
+  color: white;
+  background-color: #3B82F6;
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  border: white 2px solid;
+}
+
+.contact-link:hover {
+  background-color: white;
+  color: #3B82F6;
+  border: 2px solid #3B82F6;
+}
