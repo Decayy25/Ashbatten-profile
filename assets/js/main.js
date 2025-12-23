@@ -81,6 +81,12 @@ function renderPortfolio() {
       desc: "A simple color picker app using HTML, CSS, Tailwind, and JavaScript.",
       link: "mini-project/JavaScript/color-picker/index.html",
       source_code: "https://github.com/Decayy25/color-picker.git"
+    },
+    {
+      title: "Search-Engine",
+      desc: "Search engine website using HTML, CSS, Tailwind, and JavaScript.",
+      link: "mini-project/JavaScript/Search-Engine/index.html",
+      source_code: "https://github.com/Decayy25/Search-Engine.git"
     }
   ];
 
