@@ -84,3 +84,39 @@ function renderPortfolio() {
 
   AOS.refresh();
 }
+
+// Langguage & Framework Section
+function renderSkills() {
+  const skillsData = [
+    { name: "HTML", icon: "<img src=\"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg\" class=\"w-32 h-32\" />" },
+    { name: "CSS", icon: "<img src=\"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg\" class=\"w-32 h-32\" />" },
+    { name: "JavaScript", icon: "<img src=\"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg\" class=\"w-32 h-32\" />" },
+    { name: "Tailwind CSS", icon: "<img src=\"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg\" class=\"w-32 h-32\" />" },
+    { name: "C++", icon: "<img src=\"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-plain.svg\" class=\"w-32 h-32\" />" },
+    { name: "Python", icon: "<img src=\"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg\" class=\"w-32 h-32\" />" },
+  ];
+
+  const container = document.getElementById('my-skills');
+  if (!container) return;
+  container.innerHTML = skillsData.map((skill, index) => `
+    <div 
+      class="p-6 bg-white rounded shadow flex flex-col items-center"
+      data-aos="fade-up"
+      data-aos-delay="${index * 100}"
+    >
+    ${skill.icon}
+      <h4 class="text-lg font-semibold">${skill.name}</h4>
+    </div>
+  `).join('');
+  AOS.refresh();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  renderPortfolio();
+  renderSkills();
+});
+AOS.init({
+  duration: 800,
+  easing: 'slide',
+  once: true,
+});

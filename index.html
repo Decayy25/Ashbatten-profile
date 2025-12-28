@@ -10,7 +10,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&family=Shrikhand&display=swap" rel="stylesheet">
-
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
   <!-- favicon -->
   <link rel="icon" href="assets/img/icon.png" type="image/png">
 
@@ -89,14 +91,15 @@
           <img src="assets/img/IMPHNEN.png" class="w-96 mx-auto" alt="Gambar IMPHNEN" data-aos="zoom-in-up">
         </div>
     </div>
+  </div>
 
     <!-- Portfolio -->
     <h2 class="text-3xl font-semibold mt-8" id="portfolio">Portfolio</h2>
     <h3 class="text-2xl font-semibold mt-4">My Projects</h3>
     <div class="grid gap-4 md:grid-cols-3 mt-4" id="my-project"></div>
 
-    <h2 class="text-3xl font-semibold mt-8">Language & Framework i use</h2>
-    <div class="grid gap-4 md:grid-cols-3 mt-4" id="my-skills"></div>
+    <h3 class="text-3xl font-semibold mt-8">Language & Framework | use</h3>
+    <div class="grid gap-4 md:grid-cols-5 mt-4" id="my-skills"></div>
   </main>
 
   <!-- Footer -->
@@ -138,5 +141,6 @@
   <script>feather.replace()</script>
   <script>AOS.init({ duration: 1000, once: true });</script>
   <script>AOS.refresh();</script>
+  <script>renderSkills();</script>
 </body>
 </html>
