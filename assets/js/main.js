@@ -55,7 +55,7 @@ function renderPortfolio() {
     {
       title: "E-Commerce Website",
       desc: "A simple e-commerce website using HTML, CSS, Tailwind, and JavaScript.",
-      link: "mini-project/JavaScript/Ashbatten-Store/index.html",
+      link: "https://simple-e-commerce-sigma-liard.vercel.app/",
       source_code: "https://github.com/Decayy25/my-quest-from-teacher.git"
     },
   ];
