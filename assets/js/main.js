@@ -89,7 +89,7 @@ function renderPortfolio() {
 function renderSkills() {
   const skillsData = [
     { name: "TypeScript", aos: 'fade-up', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" },
-    { name: "Vite", aos: 'fade-right', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" },
+    { name: "Bun", aos: 'fade-right', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bun/bun-original.svg" },
     { name: "Tailwind CSS", aos: 'fade-left', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" },
     { name: "C++", aos: 'fade-down', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-plain.svg" },
     { name: "Csharp", aos: 'fade-left', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" },
@@ -110,7 +110,7 @@ function renderSkills() {
   if (!container) return;
   container.innerHTML = skillsData.map((skill, index) => `
     <div 
-      class="p-6 bg-white hover:border-2 hover:border-blue-500 p-6 shadow-lg hover:scale-105 transition rounded-2xl flex flex-col items-center"
+      class="p-6 bg-white hover:border-2 hover:border-blue-500 p-6 shadow-lg hover:scale-105 transition rounded-2xl flex flex-col items-center text-center"
       data-aos="${skill.aos}"
       data-aos-delay="${index * 100}"
     >
