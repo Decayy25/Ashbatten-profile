@@ -101,9 +101,8 @@ function renderSkills() {
     { name: "Dart", aos: 'fade-up', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" },
     { name: "Flutter", aos: 'fade-left', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" },
     { name: "Nextjs", aos: 'fade-down', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" },
-    { name: "Golang", aos: 'fade-right', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" },
+    { name: "React Native", aos: 'fade-right', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactnative/reactnative-original-wordmark.svg" },
     { name: "Elysia", aos: 'fade-up', icon: "https://elysiajs.com/assets/elysia.svg" },
-    
   ];
 
   const container = document.getElementById('my-skills');

@@ -22,57 +22,41 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-  <header class="fixed top-0 w-full z-50 bg-blue-500 p-4 flex justify-between items-center">
+  <header class="fixed top-0 w-full z-50 p-4 flex justify-between items-center">
     <div class="text-2xl font-bold ml-5">Ashbatten</div>
     <nav class="navbar desktop space-x-4">
       <a href="../index.html" class="px-3 py-1 nav-link">Home</a>
       <a href="../index.html" class="px-3 py-1 nav-link">About</a>
-      <a href="portfolio.html" class="px-3 py-1 nav-link">Portfolio</a>
-      <a href="#" class="px-3 py-1 nav-link">Contact</a>
+      <a href="#" class="px-3 py-1 nav-link">Portfolio</a>
+      <a href="contact.html" class="px-3 py-1 nav-link">Contact</a>
     </nav>
-    <button id="menu-toggle" class="md:hidden">☰</button>
+    <button id="menu-toggle" class="md:hidden absolute right-4 top-4 z-50">☰</button>
   </header>
-  <div id="mobile-menu" class="md:hidden fixed top-0 left-0 w-full bg-gray-900 p-4 space-y-2 hidden z-40">
+
+
+  <div id="mobile-menu" class="md:hidden fixed top-0 w-full bg-gray-900 p-4 space-y-2 hidden z-40">
     <a href="../index.html" class="text-white hover:text-blue-500 ">Home</a>
     <a href="../index.html" class="text-white hover:text-blue-500">About</a>
-    <a href="portfolio.html" class="text-white hover:text-blue-500">Portfolio</a>
-    <a href="#" class="text-white hover:text-blue-500">Contact</a>
+    <a href="#" class="text-white hover:text-blue-500">Portfolio</a>
+    <a href="contact.html" class="text-white hover:text-blue-500">Contact</a>
   </div>
 
-  <main class="container mx-auto px-4 mt-32 mb-16">
-    <!-- Contact -->
-    <div class="bg-white bg-white p-6 mt-4 rounded-xl shadow" data-aos="fade-up">
-    <h2 class="text-3xl font-semibold mt-8" id="contact">Contact</h2>
-    <div class="bg-white p-6 mt-4 flex flex-col md:flex-row gap-6">
-      <div class="md:w-1/2 w-full" data-aos="fade-left" data-aos-delay="500">
-        <p class="mb-2">Feel free to contact me at:</p>
-        <p>Email: <a href="mailto:ashbattenofficial@gmail.com" class="text-blue-500">ashbattenofficial@gmail.com</a></p>
-        <p>Phone: <a href="tel:+6285136485461" class="text-blue-500">+62 851-3648-5461</a></p>
-        <form class="mt-4" method="post" action="contactForm">
-          <input type="text" placeholder="Your Name" class="border p-2 w-full mb-2 rounded">
-          <input type="email" placeholder="Your Email" class="border p-2 w-full mb-2 rounded">
-          <textarea placeholder="Your Message" class="border p-2 w-full mb-2 rounded pb-10"></textarea>
-          <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Send</button>
-        </form>
-      </div>
-      <!-- Kanan: Google Maps -->
-      <div class="md:w-1/2 w-full flex items-center">
-        <div class="w-full h-64 md:h-80">
-          <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.56347862248!2d107.57311709235512!3d-6.903444341687889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Bandung%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1672408575523!5m2!1sen!2sid" 
-            class="w-full h-full rounded-xl shadow"
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
+    <main>
+        <!-- Portfolio -->
+        <div class="bg-white mt-12 pb-8">
+          <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-semibold mt-0 pt-8" id="portfolio">Portfolio</h2>
+          <h3 class="text-2xl font-semibold mt-4">My Projects</h3>
+          <div class="grid gap-4 md:grid-cols-3 mt-4" id="my-project"></div>
+
+          <h3 class="text-3xl font-semibold mt-8">Language & Framework | use</h3>
+          <div class="grid gap-x-8 gap-y-4 md:grid-cols-5 mt-4" id="my-skills"></div>
         </div>
       </div>
-    </div>
   </main>
 
-  <div class="mt-32"></div>
   <!-- Footer -->
-  <footer class="footer mt-48 flex flex-col justify-center items-center p-6 bg-gray-900 text-white">
+  <footer class="footer mt-64 flex flex-col justify-center items-center p-6 bg-gray-900 text-white">
     <div class="social flex justify-between w-32 mb-4">
       <a href="https://www.instagram.com/rizqi5836/" class="hover:text-blue-500">
         <i data-feather="instagram"></i>
@@ -90,8 +74,8 @@
     <div class="links flex gap-4 mb-4">
       <a href="../index.html">Home</a>
       <a href="../index.html">About</a>
-      <a href="portfolio.html">Portfolio</a>
-      <a href="#">Contact</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="contact.html">Contact</a>
     </div>
 
     <div class="credit mb-4">
