@@ -89,20 +89,15 @@ function renderPortfolio() {
 function renderSkills() {
   const skillsData = [
     { name: "TypeScript", aos: 'fade-up', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" },
-    { name: "Bun", aos: 'fade-right', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bun/bun-original.svg" },
     { name: "Tailwind CSS", aos: 'fade-left', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" },
     { name: "C++", aos: 'fade-down', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-plain.svg" },
-    { name: "Csharp", aos: 'fade-left', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" },
     { name: "Git", aos: 'fade-up', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain.svg" },
     { name: "React", aos: 'fade-left', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" },
     { name: "Node.js", aos: 'fade-down', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain.svg" },
     { name: "MongoDB", aos: 'fade-right', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain.svg" },
     { name: "Express", aos: 'fade-right', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" },
-    { name: "Dart", aos: 'fade-up', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" },
-    { name: "Flutter", aos: 'fade-left', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" },
     { name: "Nextjs", aos: 'fade-down', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" },
     { name: "React Native", aos: 'fade-right', icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactnative/reactnative-original-wordmark.svg" },
-    { name: "Elysia", aos: 'fade-up', icon: "https://elysiajs.com/assets/elysia.svg" },
   ];
 
   const container = document.getElementById('my-skills');
