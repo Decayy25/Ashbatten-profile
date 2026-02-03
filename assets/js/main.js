@@ -62,6 +62,18 @@ function renderPortfolio() {
       link: "https://simple-e-commerce-sigma-liard.vercel.app/",
       source_code: "https://github.com/Decayy25/my-quest-from-teacher.git"
     },
+    {
+      title: "Web Company",
+      desc: "Modern digital platform for educational institution information accessed on desktop.",
+      link: "https://web-company-silk.vercel.app/",
+      source_code: "https://github.com/Decayy25/web-company.git"
+    },
+    {
+      title: "E-Learning website",
+      desc: "Development of responsive e-learning sites with interactive content.",
+      link: "",
+      source_code: "https://github.com/Decayy25/E-Learning-MERN.git"
+    }
   ];
 
   const container = document.getElementById('my-project');
