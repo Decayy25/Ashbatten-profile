@@ -65,7 +65,7 @@ function renderPortfolio() {
     {
       title: "Web Company",
       desc: "Modern digital platform for educational institution information accessed on desktop.",
-      link: "https://web-company-silk.vercel.app/",
+      link: "https://web-company-merb-stack.vercel.app/",
       source_code: "https://github.com/Decayy25/web-company.git"
     },
     {
