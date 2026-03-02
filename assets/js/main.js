@@ -153,7 +153,7 @@ function renderSkills() {
 
   AOS.refresh();
   AOS.init({
-    duration: 800,
+    duration: 1000,
     easing: "ease-out-cubic",
     once: true,
   });
