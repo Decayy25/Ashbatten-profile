@@ -69,10 +69,10 @@ function renderPortfolio() {
       source_code: "https://github.com/Decayy25/web-company.git"
     },
     {
-      title: "E-Learning website",
-      desc: "Development of responsive e-learning sites with interactive content.",
+      title: "E-Commerce Central GPU",
+      desc: "E-commerce website for GPU using MERB stack and TypeScript.",
       link: "",
-      source_code: "https://github.com/Decayy25/E-Learning-MERN.git"
+      source_code: "https://github.com/Decayy25/E-Commerce-Central-GPU.git"
     }
   ];
 
